@@ -1,0 +1,4 @@
+interface:
+  display_name: "OSS Contribution Scout"
+  short_description: "Rank open-source contribution opportunities"
+  default_prompt: "Use $oss-contribution-scout to find and rank contribution opportunities for this upstream repository."
