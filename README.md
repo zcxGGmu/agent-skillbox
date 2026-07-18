@@ -18,12 +18,17 @@ Use this repository to:
 | Skill | Purpose | Key files |
 |---|---|---|
 | [`oss-contribution-scout`](./oss-contribution-scout/SKILL.md) | Finds and ranks open-source contribution opportunities by combining upstream issue triage with local codebase exploration. | [`references/scoring.md`](./oss-contribution-scout/references/scoring.md), [`scripts/collect_github_issues.py`](./oss-contribution-scout/scripts/collect_github_issues.py) |
+| [`oss-pr-lifecycle`](./oss-pr-lifecycle/SKILL.md) | Runs the full OSS contribution loop: scout issues, implement prioritized fixes, open PRs, and monitor/respond to review feedback. | [`SKILL.md`](./oss-pr-lifecycle/SKILL.md), [`agents/openai.yaml`](./oss-pr-lifecycle/agents/openai.yaml) |
 
 ## Repository Layout
 
 ```text
 agent-skillbox/
 +-- README.md
+|-- oss-pr-lifecycle/
+|   |-- SKILL.md
+|   `-- agents/
+|       `-- openai.yaml
 `-- oss-contribution-scout/
     |-- SKILL.md
     |-- agents/

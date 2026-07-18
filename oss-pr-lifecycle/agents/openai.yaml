@@ -1,0 +1,4 @@
+interface:
+  display_name: "OSS PR Lifecycle"
+  short_description: "Find, fix, PR, and monitor OSS issues"
+  default_prompt: "Use $oss-pr-lifecycle to find high-value upstream issues, implement prioritized fixes, open PRs, and monitor community feedback."
